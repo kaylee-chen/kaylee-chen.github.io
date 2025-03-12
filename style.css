@@ -1,99 +1,133 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffe4e1; /* Soft pink background */
-    color: #5a3e36; /* Darker brown-pink text */
+    background-color: #ffe4e1; /* Soft pink */
+    color: #333;
+    text-align: center;
 }
 
-/* Header Styling */
+/* Navigation Bar */
 header {
-    background: #ff69b4; /* Hot pink header */
-    color: white;
-    padding: 15px;
-    text-align: center;
+    background: #ff69b4;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav .logo {
     font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 500;
 }
 
-/* Section Styling */
-section {
-    padding: 30px;
-    text-align: center;
+/* Hero Section */
+.hero {
+    padding: 120px 20px;
+    background: #ffb6c1;
+    color: white;
 }
 
-/* Images */
-img {
-    width: 50%;
-    max-width: 300px;
-    display: block;
-    margin: 15px auto;
-    border-radius: 15px;
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+}
+
+/* Gallery Section */
+#gallery {
+    background: #ffccd5;
+    padding: 50px 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 200px;
+    margin: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* List Styling */
-ul {
-    background: #ffb6c1; /* Lighter pink for contrast */
-    padding: 15px;
+.project-card img {
+    width: 100%;
     border-radius: 10px;
-    display: inline-block;
 }
 
-ul li {
-    list-style: none;
-    padding: 5px;
-    font-size: 18px;
-    color: #5a3e36;
+/* Contact Section */
+#contact {
+    background: #ff69b4;
+    color: white;
+    padding: 50px 20px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 24px;
+    margin: 10px;
 }
 
 /* Footer */
 footer {
-    text-align: center;
     padding: 20px;
-    background: #ff1493; /* Deep pink footer */
-    color: white;
-    font-size: 18px;
-}
-
-footer a {
-    color: #FFD700; /* Gold links for contrast */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Buttons (Optional) */
-button {
-    background: #ff69b4;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-button:hover {
     background: #ff1493;
+    color: white;
 }

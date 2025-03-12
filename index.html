@@ -3,36 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaylee's Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Kaylee's World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <header>
-        <h1>Welcome to My Website</h1>
         <nav>
+            <div class="logo">Kaylee</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="intro">
-        <img src="your-image.jpg" alt="A picture of Kaylee">
-        <p>
-            Hi! I'm Kaylee, a Computer Science and Business major passionate about technology, fintech, and digital innovation. 
-            I love building things—whether it's a startup idea, a coding project, or even pressed flower art. 
-            In my free time, I enjoy thrifting, playing guitar, hiking, and exploring new cafes. 
-            This website is a little space to showcase what I love and what I'm working on. 
-            Feel free to explore!
-        </p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="your-image.jpg" alt="Kaylee's Picture">
+        <h1>Welcome to My World</h1>
+        <p>Exploring the intersection of creativity, technology, and adventure.</p>
     </section>
 
-    <footer id="contact">
-        <h2>Contact</h2>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Kaylee! I'm a CS & Business student passionate about fintech, AI, and technology.  
+           Beyond my studies, I love **flower pressing**, **thrifting**, **exploring cute cafes**, and **playing guitar**.  
+           This space is where I share my passions, projects, and adventures.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Things That Make Me Happy</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="flowers.jpg" alt="Pressed Flowers">
+                <p>Pressed flowers from my collection 🌸</p>
+            </div>
+            <div class="gallery-item">
+                <img src="cafe.jpg" alt="Aesthetic Cafe">
+                <p>Exploring cozy coffee shops ☕</p>
+            </div>
+            <div class="gallery-item">
+                <img src="vintage.jpg" alt="Thrift Shopping">
+                <p>Finding unique treasures while thrifting 🛍️</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects & Creative Work</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="unimart.jpg" alt="UniMart App">
+                <h3>UniMart</h3>
+                <p>A campus marketplace app for students.</p>
+            </div>
+            <div class="project-card">
+                <img src="spotify.jpg" alt="Spotify Wrapped+">
+                <h3>Spotify Wrapped+</h3>
+                <p>Redesigning Spotify Wrapped with more data insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Let's Connect</h2>
         <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Kaylee. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
