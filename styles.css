@@ -1,16 +1,16 @@
 /* General Styles */
 body {
-    font-family: 'Garamond', serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f3eb; /* Soft pink/beige */
-    color: #5c4d3e; /* Earthy brown */
+    background-color: #f8f3eb; /* Soft beige */
+    color: #4a3f35; /* Earthy brown */
     text-align: center;
 }
 
 /* Navigation Bar */
 header {
-    background: #dab9c1;
+    background: #e7c6a0;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -25,8 +25,9 @@ nav {
 }
 
 nav .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Shadows Into Light", cursive;
     color: #4a3f35;
 }
 
@@ -45,41 +46,66 @@ nav ul li a {
     text-decoration: none;
     color: #4a3f35;
     font-weight: 500;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #d67d8a; /* Soft pink */
 }
 
 /* Hero Section */
 .hero {
-    padding: 100px 20px;
-    background: #df9fa4;
-    color: white;
+    padding: 120px 20px;
+    background: linear-gradient(180deg, #f8dcd3 0%, #f4ece4 100%);
+    color: #4a3f35;
 }
 
 .hero img {
     width: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Gallery Section */
-#gallery {
-    background: #e7c6a0;
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    background: #d67d8a;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #c76677;
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background: #f4ece4;
     padding: 50px 20px;
 }
 
-.gallery-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#contact h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4a3f35;
 }
 
-.gallery-item {
-    width: 200px;
-    margin: 15px;
+.social-links a {
+    font-size: 24px;
+    margin: 10px;
+    color: #d67d8a;
+    transition: transform 0.3s ease;
 }
 
-.gallery-item img {
-    width: 100%;
-    border-radius: 10px;
+.social-links a:hover {
+    transform: scale(1.2);
 }
 
 /* Footer */
@@ -87,4 +113,6 @@ footer {
     padding: 20px;
     background: #4a3f35;
     color: white;
+    font-size: 14px;
+    font-family: "Shadows Into Light", cursive;
 }
