@@ -1,16 +1,16 @@
 /* General Styles */
 body {
-    font-family: 'Poppins', serif;
+    font-family: 'Garamond', serif;
     margin: 0;
     padding: 0;
     background-color: #f8f3eb; /* Soft pink/beige */
-    color: #4a3f35; /* Earthy brown */
+    color: #5c4d3e; /* Earthy brown */
     text-align: center;
 }
 
 /* Navigation Bar */
 header {
-    background: #e7c6a0;
+    background: #dab9c1;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -50,7 +50,7 @@ nav ul li a {
 /* Hero Section */
 .hero {
     padding: 100px 20px;
-    background: #d8a48f;
+    background: #df9fa4;
     color: white;
 }
 
