@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3eb; /* Soft pink/beige */
+    color: #4a3f35; /* Earthy brown */
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: #e7c6a0;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a3f35;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a3f35;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    background: #d8a48f;
+    color: white;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Gallery Section */
+#gallery {
+    background: #e7c6a0;
+    padding: 50px 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 200px;
+    margin: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #4a3f35;
+    color: white;
+}
