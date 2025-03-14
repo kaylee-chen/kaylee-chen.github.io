@@ -9,6 +9,10 @@ body {
     padding-top: 120px;
 }
 
+* {
+    font-family: 'Playfair Display', serif;
+}
+
 /* Navigation Bar */
 header {
     background: #e7c6a0;
@@ -125,10 +129,10 @@ footer {
 
 p {
     font-size: 18px;
-    line-height: 1.8;  /* Adjusts space between lines */
-    margin-bottom: 20px; /* Adds space between paragraphs */
-    text-align: center; /* Centers text */
-    max-width: 800px; /* Makes it easier to read */
+    line-height: 1.8;  
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
